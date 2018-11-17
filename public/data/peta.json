@@ -1,0 +1,35 @@
+{
+        "area" :
+    [
+        {
+            "lokasi":[-5.153414, 119.454206],
+            "sponsor" : "Ulu Juku",
+            "gambar":"img/image1.jpg",
+            "review": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id eius quos explicabo sed officia, laborum voluptas, amet omnis quis molestias suscipit! Aperiam saepe ratione eveniet ex quae sapiente repudiandae iusto?"
+        },
+        {
+            "lokasi": [-5.149436, 119.430267],
+            "sponsor" : "Coto Kuda",
+            "gambar":"img/image2.jpg",
+            "review":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id eius quos explicabo sed officia, laborum voluptas, amet omnis quis molestias suscipit! Aperiam saepe ratione eveniet ex quae sapiente repudiandae iusto?"
+        },
+        {
+            "lokasi": [-5.155316, 119.418372],
+            "sponsor" : "Warung Kopi Dg.Sija",
+            "gambar":"img/image3.jpg",
+            "review":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id eius quos explicabo sed officia, laborum voluptas, amet omnis quis molestias suscipit! Aperiam saepe ratione eveniet ex quae sapiente repudiandae iusto?"
+        },
+        {
+            "lokasi": [-5.161518, 119.409988],
+            "sponsor" : "Kartu Kuning",
+            "gambar":"img/image4.jpg",
+            "review":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id eius quos explicabo sed officia, laborum voluptas, amet omnis quis molestias suscipit! Aperiam saepe ratione eveniet ex quae sapiente repudiandae iusto?"
+        },
+        {
+            "lokasi": [-5.166006, 119.409413],
+            "sponsor" : "Samsat!!",
+            "gambar":"img/image5.jpg",
+            "review":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id eius quos explicabo sed officia, laborum voluptas, amet omnis quis molestias suscipit! Aperiam saepe ratione eveniet ex quae sapiente repudiandae iusto?"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+body {
+    font-size: large;
+    }
+  .container{
+      display: grid | inline-grid;
+  }
+  .tengah{
+    margin: auto;
+    margin-top: 10%;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+
+  .item{
+      margin-left: 15%;
+  }
