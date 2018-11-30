@@ -32,6 +32,7 @@ gmb.appendChild(img);
 rev.appendChild(par);
 
 const URL = 'data/peta.json'
+let area =  []
 fetch(URL)
   .then(function(response) {
     return response.json();
@@ -44,9 +45,9 @@ fetch(URL)
   
 
 //   var places = localStorage.getItem('nanang');
-let area = JSON.parse((localStorage.getItem('nanang')));
+let pinned = JSON.parse((localStorage.getItem('nanang')));
 
-for (var p of area) {
+for (var p of pinned) {
     var marker=
     L.marker(p.lokasi).addTo(mymap)
     .bindPopup(p.sponsor);
