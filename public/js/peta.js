@@ -49,6 +49,4 @@ fetch(URL)
                 .bindPopup(p.sponsor);
             marker.on('click', showLocation);
         }
-
-
     })

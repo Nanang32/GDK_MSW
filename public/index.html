@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Google Developer Kerjar</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-        <link rel="stylesheet" type="text/css" href="css/index.css">
-        <script src="main.js"></script>
-    </head>
-    <body>
-        <div class="container">
-            <div class="menu" style="padding: 5px"><img src="img/tick.png" alt="lgo" height="45px" height="45px"></div>
-            <div class="header">Vice&nbsp;Akarasa</div>
-            <div class="sidebar"><img src="img/appsr.jpeg" alt="Profil"></div>
-            <div class="content">
-                    <div class="subkonten"><a href="add2numbers.html" target="_blank">Menghitung&nbsp;2&nbsp;Angka</a></div>
-                    <div class="subkonten"><a href="maps.html" target="_blank">Peta&nbsp;Kuliner</a></div>
-                    <div class="subkonten"><a href="konten3.html" target="_blank">Peta&nbsp;Kuliner dengan review</a></div>
-                    
-                    <div class="subkonten"><a href="#">Profil&nbsp;Saya</a></div>       
-                </div>
-            <div class="footer">Create&nbsp;Some&nbsp;Text&nbsp;here</div>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Google Developer Kerjar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu" style="padding: 5px"><img src="img/tick.png" alt="lgo" height="45px" height="45px"></div>
+        <div class="header">Vice&nbsp;Akarasa</div>
+        <div class="sidebar"><img src="img/appsr.jpeg" alt="Profil"></div>
+        <div class="content">
+            <div class="subkonten"><a href="add2numbers.html" target="_blank">Menghitung&nbsp;2&nbsp;Angka</a></div>
+            <div class="subkonten"><a href="maps.html" target="_blank">Peta&nbsp;Kuliner</a></div>
+            <div class="subkonten"><a href="konten3.html" target="_blank">Peta&nbsp;Kuliner dengan review</a></div>
+
+            <div class="subkonten"><a href="#">Profil&nbsp;Saya</a></div>
         </div>
-    </body>
+        <div class="footer">Create&nbsp;Some&nbsp;Text&nbsp;here</div>
+    </div>
+</body>
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+            navigator.serviceWorker.register('js/sw.js').then(function (registration) {
+                // Registration was successful
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            }).catch(function (err) {
+                // registration failed :(
+                console.log('ServiceWorker registration failed: ', err);
+            });
+        });
+    }
+</script>
 </html>
