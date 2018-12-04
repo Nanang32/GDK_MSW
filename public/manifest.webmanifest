@@ -1,24 +1,22 @@
+
 {
-  "background_color": "#3E4EB8",
-  "theme_color": "#2F3BA2",
-
-  "display": "standalone",
-    "description": "Shows random fox pictures. Hey, at least it isn't cats.",
-
-    "icons": [
-      {
-        "src": "icon/iconx.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      },
-      {
-        "src": "icon/icon1.png",
-        "sizes": "512x512",
-        "type": "image/png"
-      }
-    ],
-    "name": "Google Developer Kejar",
-    "short_name": "GDK MWS",
-    "start_url": "./index.html"
-    
-  }
+  "background_color": "blue",
+  "theme_color": "#317EFB",
+  "description": "Mobile Web Spesialist GDK-2",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "img/iconx.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icon1.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "name": "Luqman GDK",
+  "short_name": "nanangs",
+  "start_url": "/index.html"
+}

@@ -1,7 +1,17 @@
-// Siapkan fungsi Callback untuk event "install"
+var CACHE_NAME = 'my-site-cache-v1';
+var urlsToCache = [
+  '/',
+  '/css/index.css'
+];
+
+
 self.addEventListener('install', function(event) {
-    // Lakukan beberapa pekerjaan
-    });
-    self.addEventListener('activate', function(event) {
-    // Lakukan aktifasi
-    });
+    // Perform install steps
+    event.waitUntil(
+      caches.open(CACHE_NAME)
+        .then(function(cache) {
+          console.log('Opened cache');
+          return cache.addAll(urlsToCache);
+        })
+    );
+  });
